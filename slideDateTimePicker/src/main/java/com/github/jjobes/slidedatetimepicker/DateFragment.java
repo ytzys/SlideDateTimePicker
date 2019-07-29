@@ -50,7 +50,8 @@ public class DateFragment extends Fragment
 
         try
         {
-            mCallback = (DateChangedListener) getTargetFragment();
+//            mCallback = (DateChangedListener) getTargetFragment();
+            mCallback = (DateChangedListener) getParentFragment();
         }
         catch (ClassCastException e)
         {
