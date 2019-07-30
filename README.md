@@ -15,7 +15,7 @@ To add this library to your project, add the following to your `build.gradle`:
 
 ```groovy
 dependencies {
-    compile project(':slideDateTimePicker')
+    api 'com.ytzys:slideDateTimePicker:v1.0.5'
 }
 ```
 
@@ -106,6 +106,10 @@ Contributions are welcome. Please open up an issue in GitHub or submit a PR.
 
 Changelog
 =========
+### v1.0.5
+
+* Fixed issue 'Fragment DateFragment declared target fragment SlideDateTimeDialogFragment that does not belong to this FragmentManager'
+
 ### v1.0.4
 
 * Fixed issue where the DatePicker would shift to the left when scrolled vertically (thanks to [alexrainman](https://github.com/alexrainman))
